@@ -15,7 +15,7 @@ describe('User authentication with different authentication methods', () => {
 
     it('should login with phone number', () => {
         loginPage.visitLoginPage();
-        loginPage.loginWithPhoneNumber('9790718877', 'test@123!');
+        loginPage.loginWithPhoneNumber('9791718877', 'test@123!');
         cy.url().should('include', 'www.amazon.com');
     });
 
