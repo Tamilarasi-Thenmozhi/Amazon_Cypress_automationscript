@@ -10,7 +10,7 @@ describe('Invalid login and cart functionality', () => {
 
     it('should not login with invalid emailid and password', () => {
         loginPage.visitLoginPage();
-        loginPage.login('tamilarasimthenmozhi@gmail', 'test');
+        loginPage.login('tamilarasimthenmozhi@gmail', 'test@123');
         cy.wait(2000)
     });
 
