@@ -24,7 +24,7 @@ describe('Amazon Signup and Login', () => {
 
   it('should login with valid phonenumber and password to login successfully', () => {
     loginPage.visitLoginPage();
-    loginPage.login('9790718877', 'test@123!');
+    loginPage.login('9790718876', 'test@123!');
   });
 
   it('should Adding product item to cart successfully', () => {
